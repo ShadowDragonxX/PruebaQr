@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
         if(result != null)
             if(result.getContents() != null)
             {
-                tvBarCode.setText("El codigo de barra es; \n" + result.getContents());
+                tvBarCode.setText("El codigo es; \n" + result.getContents());
             }else{
-                tvBarCode.setText("error al scanear codigo de barra");
+                tvBarCode.setText("error al scanear");
             }
     }
 
